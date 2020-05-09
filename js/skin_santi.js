@@ -57,37 +57,37 @@ window.requestAnimationFrame(function () {
     inner.classList.add("tile-inner");
     switch (tile.value) {
     case 2:
-      inner.textContent = "魔法时代";
+      inner.textContent = "Magical age";
       break;
     case 4:
-      inner.textContent = "黄金时代";
+      inner.textContent = "Golden age";
       break;
     case 8:
-      inner.textContent = "危机纪元";
+      inner.textContent = "Crisis era";
       break;
     case 16:
-      inner.textContent = "威摄纪元";
+      inner.textContent = "Granville";
       break;
     case 32:
-      inner.textContent = "威摄后";
+      inner.textContent = "After the photo";
       break;
     case 64:
-      inner.textContent = "广播纪元";
+      inner.textContent = "Broadcast era";
       break;
     case 128:
-      inner.textContent = "掩体纪元";
+      inner.textContent = "Bunker era";
       break;
     case 256:
-      inner.textContent = "银河纪元";
+      inner.textContent = "Galaxy era";
       break;
     case 512:
-      inner.textContent = "黑域纪元";
+      inner.textContent = "Black Domain Era";
       break;
     case 1024:
-      inner.textContent = "647宇宙";
+      inner.textContent = "647 universe";
       break;
     case 2048:
-      inner.textContent = "死神永生";
+      inner.textContent = "Grim Reaper";
       break;
     case 4096:
       inner.textContent = "";
