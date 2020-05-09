@@ -214,7 +214,7 @@ function changeRule(add, merge, win) {
 }
 
 function normalAdd() {
-  return Math.random() < 0.9 ? 2 : 4;
+  return Math.random() < 0.9 ? 1 : 2;
 }
 
 function normalMerge(a, b) {
@@ -222,7 +222,7 @@ function normalMerge(a, b) {
 }
 
 function normalWin(merged) {
-  return merged === 4096;
+  return merged === 2147483648^2;
 }
 
 function normal() {
@@ -232,7 +232,7 @@ function normal() {
 }
 
 function alwaysTwo() {
-  changeRule(function() { return 2; }, normalMerge, normalWin);
+  changeRule(function() { return 1; }, normalMerge, normalWin);
 }
 
 function fibonacci() {
@@ -278,7 +278,7 @@ function powerTwo() {
       index = 1;
     } else {
       index <<= 1;
-      if (index > 65536) {
+      if (index > 2147483648) {
         index = 0;
       }
     }
