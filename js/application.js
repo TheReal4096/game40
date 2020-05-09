@@ -222,7 +222,7 @@ function normalMerge(a, b) {
 }
 
 function normalWin(merged) {
-  return merged === 2147483648^2;
+  return merged === 4611686018427388000;
 }
 
 function normal() {
