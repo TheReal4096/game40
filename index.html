@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>2147483648</title>
+  <title>Game #20</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -16,13 +16,14 @@
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">2147483648</h1>
+      <h1 class="title">Game #20</h1>
+      <h2 class="title">2147483648^2</h2>
       <div class="scores-container">
         <div class="score-container" id="score-container">0</div>
         <div class="best-container">0</div>
       </div>
     </div>
-    <p class="game-intro" id="game-intro">Join the numbers and get to the <strong>2147483648 tile!</strong></p>
+    <p class="game-intro" id="game-intro">Join the numbers and get to the <strong>2147483648^2=4611686018427388000 tile!</strong></p>
 
     <div class="game-container">
       <div class="game-message">
@@ -71,11 +72,11 @@
     <p>
       Special Mode: <br>
       <button type="button" onclick="changeMode('normal');">Normal</button>
-      <button type="button" onclick="changeMode('alwaysTwo');">Always 2</button>
+      <button type="button" onclick="changeMode('alwaysTwo');">Always 1</button>
       <button type="button" onclick="changeMode('fibonacci');">Fibonacci</button>
-      <button type="button" onclick="changeMode('threes');">Threes!</button>
-      <button type="button" onclick="changeMode('mergeAny');">Merge Any</button>
-      <button type="button" onclick="changeMode('powerTwo');">Power 2</button>
+      <button type="button" onclick="changeMode('threes');">Threes</button>
+      <button type="button" onclick="changeMode('mergeAny');">Unrefined Merge All</button>
+      <button type="button" onclick="changeMode('powerTwo');">Advanced</button>
       <button type="button" onclick="changeMode('tileZero');">Tile 0</button>
       <button type="button" onclick="changeMode('tileNegative');">Negative</button>
       <button type="button" onclick="changeMode('gravity');">Gravity</button>
@@ -95,21 +96,49 @@
     </p>
     <hr>
       Skin: <br>
-      <button type="button" onclick="window.location.href='skin_santi.html';">死神永生</button>
-      <button type="button" onclick="window.location.href='skin_shito.html';">使徒</button>
-      <button type="button" onclick="window.location.href='skin_bkb.html';">兵庫北</button>
+      <button type="button" onclick="window.location.href='skin_santi.html';">Grim Reaper</button>
+      <button type="button" onclick="window.location.href='skin_shito.html';">Apostle</button>
+      <button type="button" onclick="window.location.href='skin_bkb.html';">Hyogo North</button>
       <button type="button" onclick="window.location.href='skin_chemistry.html';">Chemistry</button>
     <hr>
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
+      <strong class="important">Only 2% Of People Won Until Now, Are You In Them? How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong>
     </p>
     <hr>
     <p>
-    <strong class="important">Note:</strong> This site is <strong>NOT</strong> the official version of 2048. You can play it on your phone via <a href="http://git.io/2048">http://git.io/2048.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    <strong class="important">Fibonacci Sequence:</strong> Use your <strong>arrow keys</strong> or <strong>swipe</strong> to move the tiles. When two neigbouring numbers from the <a href="http://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a> touch, they <strong>merge into the next one!</strong>
     </p>
     <hr>
     <p>
-    Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+    <strong class="important">Threes:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with sum of 3 or the same number touch greater than 3 or equal to 3, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Unrefined Merge All:</strong> Use your <strong>arrow keys</strong> to move the tiles. When <strong>ANY</strong> two tiles touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Advanced:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong><br/>But every time you make a move, the tiles will spawn in consecutive powers of 2 every single time.
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Tile Zero:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong><br/><strong>Watch out for ‘0’s</strong>—they can only merge with themselves!
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Negative:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same absolute value touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Gravity:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same number touch, they <strong>merge into one!</strong><br/>But every time you make a move, gravity has been enabled, and those tiles above will drop to the bottom of the grid.
+    </p>
+    <hr>
+    <p>
+    <strong class="important">Note:</strong> This site is <strong>NOT</strong> the official version of 2147483648. You can play it on your phone via <a href="http://cyberzhg.github.io/2048/">http://git.io/2147483648.</a> All other apps or sites are derivatives or fakes, and should be used with caution.
+    </p>
+    <hr>
+    <p>
+      Created by <a href="glukascewic1.github.io/">TheReal2048</a>. Original 2147483648 created by <a href="github.com/CyberZHG/">CyberZHG.</a> Based on 2048 created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Which was in turn based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
     <hr>
   </div>
