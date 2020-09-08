@@ -4,7 +4,7 @@ function getSize() {
   if (r != null) {
     return parseInt(unescape(decodeURI(r[2])));
   }
-  return 8; 
+  return 32; 
 }
 
 function getMode() { 
@@ -222,7 +222,7 @@ function normalMerge(a, b) {
 }
 
 function normalWin(merged) {
-  return merged === 4611686018427388000;
+  return merged === Infinity;
 }
 
 function normal() {
